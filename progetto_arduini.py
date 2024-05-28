@@ -4,7 +4,7 @@ import time
 def crea_mazzo():
     semi = ["Denari", "Coppe", "Bastoni", "Spade"]
     valori = ["Asso", "2", "3", "4", "5", "6", "7", "Fante", "Cavallo", "Re"]
-    mazzo = [(valore, seme) for seme in semi for valore in valori]
+    mazzo =  for seme in semi for valore in valori
     random.shuffle(mazzo)  
     return mazzo
 
