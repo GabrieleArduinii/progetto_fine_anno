@@ -25,11 +25,11 @@ def gioca_turno(mano_giocatore, mazzo_giocatore, mazzo_avversario):
         mazzo_giocatore += mazzo_avversario  
         mazzo_avversario = []
         print("Rubamazzo")
-        time.sleep(1)  
+     
 
 def rubamazzo(giocatore1, giocatore2):
    
-    turno = 1  # Contatore dei turni
+    turno = 1  
     while giocatore1 and giocatore2:
         print(f"\n--- Turno {turno} ---")
         stampa_stato_gioco(giocatore1, giocatore2) 
